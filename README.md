@@ -10,7 +10,7 @@ go to (NeoVim)[https://github.com/neovim/neovim/wiki/Installing-Neovim]
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-## Clone to This template
+## Setup NeoVim!!
 
 1. Click to "Use this template"
 2. Repository name is "**nvim**"
