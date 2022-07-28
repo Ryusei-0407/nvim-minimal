@@ -2,15 +2,7 @@
 
 ## Install NeoVim!!
 
-**Mac**
-
-```sh
-brew install neovim # or brew install neovim --HEAD
-```
-
-**Linux/Windows**
-
-go to (NeoVim releases)[https://github.com/neovim/neovim/releases/tag/v0.7.2]
+go to (NeoVim)[https://github.com/neovim/neovim/wiki/Installing-Neovim]
 
 ## Install packer!!
 
