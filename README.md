@@ -1,5 +1,11 @@
 # Hello, NeoVim!!
 
+## Plugins
+
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+
 ## Install NeoVim!!
 
 go to [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
