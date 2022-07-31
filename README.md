@@ -8,7 +8,7 @@
 
 ## Install NeoVim!!
 
-go to [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+go to [NeoVim install page](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 ## Install packer!!
 
