@@ -23,7 +23,7 @@ vim.opt.writebackup = false
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.numberwidth = 4
@@ -83,6 +83,9 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", opts)
 vim.api.nvim_set_keymap("n", "ss", ":split<CR>", opts)
 vim.api.nvim_set_keymap("n", "sv", ":vsplit<CR>", opts)
 
+-- LSP
+require("config.cmp")
+require("lsp")
 -- Treesitter --
 require("nvim-treesitter.configs").setup({
 	ensure_installed = "all",
@@ -104,4 +107,13 @@ return require("packer").startup(function()
 	use("wbthomason/packer.nvim")
 	use("nvim-treesitter/nvim-treesitter")
 	use("lukas-reineke/indent-blankline.nvim")
+    use("hrsh7th/nvim-cmp")
+    use("hrsh7th/cmp-buffer")
+    use("hrsh7th/cmp-path")
+    use("hrsh7th/cmp-cmdline")
+    use("hrsh7th/cmp-nvim-lsp")
+    use("hrsh7th/cmp-nvim-lua")
+    use("neovim/nvim-lspconfig")
+    use("williamboman/mason.nvim")
+    use("williamboman/mason-lspconfig.nvim")
 end)
