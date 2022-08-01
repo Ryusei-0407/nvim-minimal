@@ -5,6 +5,8 @@
 - [packer.nvim](https://github.com/wbthomason/packer.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [mason](https://github.com/williamboman/mason.nvim)
 
 ## Install NeoVim!!
 
