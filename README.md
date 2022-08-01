@@ -25,5 +25,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvi
 3. Clone to create your repository
 4. Move to `mv nvim ~/.config/`
 5. Start NeoVim `nvim`
-6. Run `:PackerInstall`
+6. Run `:PackerSync`
 7. Completed!!
